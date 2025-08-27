@@ -1,27 +1,88 @@
-Data_Science_Practice
+# 📊 Data Analysis with Pandas
 
-This repository is a collection of my personal Data Science practice exercises, projects, and learning notes. As I explore and deepen my understanding of various data science concepts, algorithms, and tools, I will be documenting my progress here.
+This repository documents my progress in learning **Pandas**, a powerful Python library for data analysis and manipulation. The code is based on tutorials (such as from CodeWithHarry’s Python course) and executed using **Google Colab**.
 
-What You'll Find Here:
+---
 
-Data Preprocessing: Techniques for cleaning, transforming, and preparing datasets for analysis.
+## 📚 What I'm Learning
 
-Exploratory Data Analysis (EDA): Visualizations, statistical summaries, and other methods for uncovering insights from data.
+- Installing and importing Pandas in Colab
+- Reading data from CSV and Excel files
+- Exploring datasets using `head`, `tail`, `describe`, `info`
+- Selecting and slicing rows and columns
+- Filtering and sorting data
+- Handling missing data
+- Creating new columns and modifying existing ones
+- Grouping and aggregating data
+- Exporting cleaned data to files
 
-Machine Learning: Implementations and experiments with various machine learning algorithms, both supervised and unsupervised.
+---
 
-Data Visualization: Visualizing data using libraries like Matplotlib, Seaborn, and Plotly.
+## 🛠️ Technologies Used
 
-Projects: Practical projects where I apply my skills to real-world datasets.
+- **Python 3** (via Google Colab)
+- **Pandas**
+- *(Optional: NumPy, Matplotlib for extended use)*
 
-Tools and Libraries Used:
+---
 
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+## 📁 Folder Structure
 
-Jupyter Notebooks for interactive learning
+```
+DATA_ANALYSIS_USING_PANDAS/
+├── data/                 # Sample datasets (e.g., .csv files)
+├── notebooks/            # Google Colab notebooks (.ipynb)
+├── requirements.txt      # Python packages list
+└── README.md             # Project overview (this file)
+```
 
-SQL for querying relational databases
+---
 
-TensorFlow and PyTorch for deep learning
+## ▶️ How to Use
 
-I welcome contributions and feedback, as I'm continuously improving my skills and learning new techniques in the exciting world of data science!
+1. Open any notebook in the `notebooks/` folder via **Google Colab**
+2. Ensure required packages are installed (e.g., via `!pip install pandas`)
+3. Run the cells step-by-step to explore and learn Pandas
+4. Modify or extend the examples as you like
+
+---
+
+## ✅ Requirements
+
+Content of `requirements.txt`:
+
+```
+pandas
+```
+
+*(Optional extras):*
+
+```
+numpy
+matplotlib
+```
+
+Install packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📌 Notes
+
+This repository is for **learning purposes only**. It contains beginner to intermediate Pandas code examples, structured for clarity and continuous growth.
+
+---
+
+## 🧑‍💻 Author
+
+**Tarun Kumar Sharma**  
+GitHub: [@Tarun-pandit](https://github.com/Tarun-pandit)
+
+---
+
+## 📄 License
+
+This project is open for learning and practice. No license restrictions apply.
