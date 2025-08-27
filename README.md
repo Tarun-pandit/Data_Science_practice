@@ -1,74 +1,83 @@
-# NumPy for Data Science - Study Notes
+# 🔢 Learning NumPy with Python
 
-This repository contains my study notes, code snippets, and exercises related to **NumPy** for Data Science. I am learning the basics of NumPy and its application in data science tasks such as data cleaning, transformation, and analysis.
+This repository documents my progress in learning **NumPy**, a fundamental Python library for numerical computing. The exercises and examples are based on tutorials and personal practice, using **Google Colab** for running and experimenting with code.
 
-## Course Overview
+---
 
-This course focuses on **NumPy**, a powerful Python library for numerical computing, and covers topics essential for data science. It provides a thorough understanding of array manipulation, vectorized operations, and advanced features of NumPy, which are key skills for data manipulation and analysis.
+## 📚 What I'm Learning
 
-## Topics Covered
+- Installing and importing NumPy
+- Creating NumPy arrays (1D, 2D, 3D)
+- Array indexing and slicing
+- Array operations (arithmetic, broadcasting)
+- Useful NumPy functions (`np.mean`, `np.sum`, `np.max`, etc.)
+- Boolean indexing and filtering
+- Reshaping and flattening arrays
+- Random number generation with `np.random`
+- Performance comparison with Python lists
 
-The following topics are included in my study of NumPy for Data Science:
+---
 
-1. **Introduction to NumPy**
-   - What is NumPy?
-   - Installing NumPy
-   - Array creation and basic operations
+## 🛠️ Technologies Used
 
-2. **NumPy Arrays**
-   - Creating arrays from lists
-   - Array dimensions, shape, and size
-   - Array indexing and slicing
-   - Reshaping and transposing arrays
+- **Python 3** (via Google Colab)
+- **NumPy**
 
-3. **Array Operations**
-   - Element-wise operations
-   - Array broadcasting
-   - Mathematical functions in NumPy
+---
 
-4. **Advanced NumPy**
-   - Array manipulation (stacking, splitting, etc.)
-   - Random number generation
-   - Working with multidimensional arrays
+## 📁 Folder Structure
 
-5. **NumPy for Data Science**
-   - Using NumPy in real-world data science problems
-   - Integration with pandas and visualization libraries
+```
+NUMPY/
+├── notebooks/            # Google Colab notebooks (.ipynb)
+├── scripts/              # Python scripts with NumPy code
+├── requirements.txt      # Python packages list
+└── README.md             # Project overview (this file)
+```
 
-## How to Use This Repository
+---
 
-This repository contains Python code examples and exercises related to NumPy. You can clone this repository and run the code to see the results.
+## ▶️ How to Use
 
-### Requirements
+1. Open any notebook in the `notebooks/` folder via **Google Colab**
+2. Make sure NumPy is installed:
+   ```python
+   !pip install numpy
+   ```
+3. Run the cells to follow along with the code
+4. Modify or extend examples to deepen understanding
 
-To run the code in this repository, you need to have Python 3 and NumPy installed. You can install NumPy using pip:
+---
+
+## ✅ Requirements
+
+Content of `requirements.txt`:
+
+```
+numpy
+```
+
+Install packages using:
 
 ```bash
+pip install -r requirements.txt
+```
 
-pip install numpy
+---
 
-##Running the Code
+## 📌 Notes
 
--Each file in the repository contains individual code snippets that you can run to understand how different NumPy operations work.##
-python numpy_example.py
+This repository is created purely for **learning purposes**. It includes both basic and intermediate-level NumPy examples, all organized for easy reference and practice.
 
-##Exercises
+---
 
--This repository also includes exercises that I worked on during my study. Feel free to try them out and test your understanding.
-Learning Outcomes
--By following this repository, I aim to achieve the following:
+## 🧑‍💻 Author
 
--A solid understanding of NumPy arrays and how to perform vectorized operations.
+**Tarun Kumar Sharma**  
+GitHub: [@Tarun-pandit](https://github.com/Tarun-pandit)
 
--Proficiency in using NumPy for data manipulation and mathematical calculations.
+---
 
--Improved problem-solving skills for data science applications with NumPy.
+## 📄 License
 
-##Contributing
-
--This repository is a personal learning project. If you have any suggestions or improvements, feel free to fork the repository and submit a pull request.
-
-##License
-
--This repository is for educational purposes only. It is not intended for commercial use.
-
+This project is open for learning and personal development. No license restrictions apply.
