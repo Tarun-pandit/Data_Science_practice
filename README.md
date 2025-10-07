@@ -1,27 +1,60 @@
-Data_Science_Practice
+# 🧠 SQL Practice – Data Science Repository
 
-This repository is a collection of my personal Data Science practice exercises, projects, and learning notes. As I explore and deepen my understanding of various data science concepts, algorithms, and tools, I will be documenting my progress here.
+Welcome to the **SQL Practice** branch of my [Data Science Practice Repository](https://github.com/Tarun-pandit/Data_Science_practice/tree/SQL).  
+This section contains all the essential SQL topics, practical examples, and notes to master database concepts for data science and analytics.
 
-What You'll Find Here:
+## 📚 Topics Covered
 
-Data Preprocessing: Techniques for cleaning, transforming, and preparing datasets for analysis.
+### 🏗️ Database Basics
+- Creating a Database
+- Creating a Table
+- Modifying a Table
+- Inserting Data into a Table
+- Selecting Data from a Table
+- Updating Data in a Table
+- Deleting Data from a Table
 
-Exploratory Data Analysis (EDA): Visualizations, statistical summaries, and other methods for uncovering insights from data.
+### ⚙️ Advanced Operations
+- Transactions in MySQL
+- Getting Current Date and Time
+- Deep Dive into Constraints
+- Foreign Keys
+- Joins in MySQL
+- UNION in MySQL
+- Functions in MySQL
+- Views in MySQL
+- Indexes in MySQL
+- Subqueries in MySQL
+- GROUP BY in MySQL
+- Stored Procedures in MySQL
 
-Machine Learning: Implementations and experiments with various machine learning algorithms, both supervised and unsupervised.
+## 🧩 Objective
+This branch is designed to:
+- Strengthen SQL fundamentals.
+- Prepare for **data analysis** and **data engineering** interviews.
+- Build a foundation for **real-world database projects**.
 
-Data Visualization: Visualizing data using libraries like Matplotlib, Seaborn, and Plotly.
+## 🧠 How to Use
+1. Clone the repository:
+   git clone https://github.com/Tarun-pandit/Data_Science_practice.git
+2. Switch to the SQL branch:
+   git checkout SQL
+3. Explore the `.sql` files or notebooks topic-wise.
 
-Projects: Practical projects where I apply my skills to real-world datasets.
+## 💡 Tech Stack
+- **Database:** MySQL
+- **Tools:** MySQL Workbench / VS Code
+- **Format:** SQL scripts + Explanatory notes
 
-Tools and Libraries Used:
+## 🏁 Future Additions
+- Triggers and Events
+- Window Functions
+- Query Optimization
+- Real-world database projects
 
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+## 👨‍💻 Author
+**Tarun Sharma**
+📍 Passionate about Data Science, Machine Learning & Generative AI.
+📫 [Visit my GitHub Profile](https://github.com/Tarun-pandit)
 
-Jupyter Notebooks for interactive learning
-
-SQL for querying relational databases
-
-TensorFlow and PyTorch for deep learning
-
-I welcome contributions and feedback, as I'm continuously improving my skills and learning new techniques in the exciting world of data science!
+⭐ *If you find this useful, don’t forget to star the repository!*
