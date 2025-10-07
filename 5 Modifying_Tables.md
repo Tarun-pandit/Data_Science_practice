@@ -1,0 +1,82 @@
+# Modifying a Table in MySQL
+
+As your application grows or requirements change, you may need to make changes to existing tables.  
+MySQL provides several `ALTER` and related statements for such modifications.
+
+---
+
+## Renaming a Table
+Use the `RENAME TABLE` command to change the name of an existing table.
+
+```sql
+RENAME TABLE old_table_name TO new_table_name;
+```
+
+---
+
+## Dropping a Table
+To permanently delete a table and all of its data:
+
+```sql
+DROP TABLE table_name;
+```
+
+---
+
+## Renaming a Column
+To rename a column in an existing table:
+
+```sql
+ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
+```
+
+---
+
+## Dropping a Column
+To remove a column from a table:
+
+```sql
+ALTER TABLE table_name DROP COLUMN column_name;
+```
+
+---
+
+## Adding a Column
+To add a new column to an existing table:
+
+```sql
+ALTER TABLE table_name ADD COLUMN column_name datatype constraints;
+```
+
+**Example:**
+```sql
+ALTER TABLE students ADD COLUMN gender VARCHAR(10);
+```
+
+---
+
+## Modifying a Column
+To change the data type or constraints of an existing column:
+
+```sql
+ALTER TABLE table_name MODIFY COLUMN column_name new_datatype new_constraints;
+```
+
+**Example:**
+```sql
+ALTER TABLE students MODIFY COLUMN name VARCHAR(150) NOT NULL;
+```
+
+---
+
+## Changing the Order of Columns
+To change the order of columns in a table, use the `AFTER` keyword:
+
+```sql
+ALTER TABLE table_name MODIFY COLUMN column_name datatype AFTER another_column_name;
+```
+
+---
+
+> ⚠️ Always review changes on production databases carefully.  
+> Use `DESCRIBE table_name;` to verify structure **before and after modifications.**
